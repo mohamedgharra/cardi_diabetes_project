@@ -26,6 +26,3 @@ __MACOSX/
 .idea/
 
 # Data and generated outputs
-data/*.csv
-reports/*
-!reports/summary.md
