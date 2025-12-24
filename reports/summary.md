@@ -1,0 +1,21 @@
+# Training Summary
+- Dataset size: 3390 rows
+- Average missing percentage handled: 0.88 %
+- Techniques used: holdout, cv5, cv5_tuning
+- Best model: logistic_regression (holdout) with ROC-AUC=0.856
+- Top 3 model combinations:
+  - logistic_regression (holdout): ROC-AUC=0.856, F1=0.474
+  - linear_svc (holdout): ROC-AUC=0.852, F1=0.473
+  - random_forest (holdout): ROC-AUC=0.742, F1=0.494
+- Top-10 feature ranking (media importanza):
+  - sysBP
+  - BMI
+  - diaBP
+  - age
+  - totChol
+  - heartRate
+  - cigsPerDay
+  - prevalentHyp
+  - is_smoking
+  - sex
+- Grafici salvati in reports/eda/ e reports/figs/
